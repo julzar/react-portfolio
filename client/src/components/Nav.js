@@ -7,11 +7,11 @@ const Nav = () => {
   const [text, setText] = useState('Jules Lazar')
 
   useEffect(() => {
-    if (pathname === '/' || pathname === '/about') {
-      setText('Jules Lazar')
-    }
-    else if (pathname === '/projects') {
-      setText('Projects')
+    // if (pathname === '/' || pathname === '/about') {
+    //   setText('Jules Lazar')
+    // }
+    if (pathname === '/' || pathname === '/projects') {
+      setText('Jules Lazar — Projects')
     }
     else if (pathname === '/connect') {
       setText('Connect')
@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <>
       <ul id="dropdown1" className="dropdown-content black">
-        <li><Link to='/about'>About</Link></li>
+        {/* <li><Link to='/about'>About</Link></li> */}
         <li><Link to='/projects'>Projects</Link></li>
         <li><Link to='/connect'>Connect</Link></li>
       </ul>

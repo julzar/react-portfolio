@@ -19,13 +19,13 @@ function App() {
         <Nav />
         <div className='container'>
           <Switch>
-            <Route exact path={['/', '/about']}>
+            {/* <Route exact path={['/', '/about']}>
               <About />
-            </Route>
+            </Route> */}
             <Route exact path='/connect'>
               <Connect />
             </Route>
-            <Route exact path='/projects'>
+            <Route exact path={['/', '/projects']}>
               <Projects />
             </Route>
           </Switch>

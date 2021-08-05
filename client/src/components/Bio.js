@@ -6,7 +6,7 @@ const Bio = () => {
     <CardOutline>
     <h5 className='animate__animated animate__fadeIn'>Full Stack Web Developer</h5>
     <p className='animate__animated animate__fadeIn'>
-      Graduated from Northwestern Universitie's Coding Boot Camp July 2020.
+      Graduated from Northwestern University's Coding Boot Camp July 2020.
     </p>
     </CardOutline>
   )
